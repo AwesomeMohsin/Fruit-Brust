@@ -20,6 +20,7 @@
 
     <title>Fruit Brust</title>
 
+    
     <style>
         * {
             font-family: 'Lato', sans-serif;
@@ -62,10 +63,10 @@
         <!-- Nav Bar -->
         <nav class="my-12">
             <div
-                class="navbar flex flex-row-reverse md:flex-row md:bg-[#F85559] justify-between rounded-full md:px-8 py-6">
+                class="navbar flex flex-row-reverse md:flex-row md:bg-[#F85559] justify-between rounded-full md:px-10 py-6">
 
                 <div class="  lg:hidden">
-                    <div class="dropdown dropdown-bottom dropdown-end md:w-32">
+                    <div class="dropdown dropdown-bottom dropdown-end md:w-36">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
@@ -100,8 +101,14 @@
                     <a class=" normal-case text-2xl md:text-4xl md:text-white">Fruit Burst</a>
                 </div>
 
-                <div class="form-control hidden md:block ">
-                    <input type="text" placeholder="Search here" class="input rounded-full md:w-32 lg:w-72" />
+                <div class="form-control hidden md:block relative">
+                    <input type="text" placeholder="Search here" class="input rounded-full md:w-36 lg:w-72" />
+                    
+                    <div class="absolute top-3 md:pl-28 lg:pl-60 flex items-center pointer-events-none">
+
+                        <img class="hover:cursor-pointer" src="./images/icons/search.svg" alt="">
+
+                      </div>
 
 
                 </div>
@@ -346,8 +353,8 @@
 
                                 <form method="dialog" class="modal-box">
 
-                                    <div class="lg:py-11 flex flex-col gap-4 lg:gap-6">
-                                        <img class="w-32 md:w-44 mx-auto" src="./images/fruit6.png" alt="Shoes" />
+                                    <div class="flex flex-col gap-4">
+                                        <img class="w-32 lg::w-44 mx-auto" src="./images/fruit6.png" alt="Shoes" />
                                         <h4 class="text-t text-4xl">Apples</h4>
 
                                         <p class="text-p w-3/4 mx-auto">Professional employees are there for you to pick
@@ -432,8 +439,8 @@
 
                                 <form method="dialog" class="modal-box">
 
-                                    <div class="lg:py-11 flex flex-col gap-4 lg:gap-6">
-                                        <img class="w-32 md:w-44 mx-auto" src="./images/fruit7.png" alt="Shoes" />
+                                    <div class="flex flex-col gap-4"">
+                                        <img class="w-32 lg:w-44 mx-auto" src="./images/fruit7.png" alt="Shoes" />
                                         <h4 class="text-t text-4xl">Orange</h4>
 
                                         <p class="text-p w-3/4 mx-auto">Professional employees are there for you to pick
@@ -518,8 +525,8 @@
 
                                 <form method="dialog" class="modal-box">
 
-                                    <div class="lg:py-11 flex flex-col gap-4 lg:gap-6">
-                                        <img class="w-32 md:w-44 mx-auto" src="./images/fruit8.png" alt="Shoes" />
+                                    <div class="flex flex-col gap-4"">
+                                        <img class="w-32 lg:w-44 mx-auto" src="./images/fruit8.png" alt="Shoes" />
                                         <h4 class="text-t text-4xl">Red Dragon</h4>
 
                                         <p class="text-p w-3/4 mx-auto">Professional employees are there for you to pick
@@ -604,8 +611,8 @@
 
                                 <form method="dialog" class="modal-box">
 
-                                    <div class="lg:py-11 flex flex-col gap-4 lg:gap-6">
-                                        <img class="w-32 md:w-44 mx-auto" src="./images/fruit9.png" alt="Shoes" />
+                                    <div class="flex flex-col gap-4"">
+                                        <img class="w-32 lg:w-44 mx-auto" src="./images/fruit9.png" alt="Shoes" />
                                         <h4 class="text-t text-4xl">Banana</h4>
 
                                         <p class="text-p w-3/4 mx-auto">Professional employees are there for you to pick
@@ -681,7 +688,7 @@
                             <h4 class="text-2xl font-bold pt-8">Awlad Hossain</h4>
                             <p class="text-base font-medium">Fruits Expert</p>
 
-                            <div class="flex justify-center gap-3 pt-4">
+                            <div class="flex justify-center gap-3 pt-4 hover:cursor-pointer">
                                 <img src="./images/icons/facebook-pink.png" alt="">
                                 <img src="./images/icons/twitter-pink.png" alt="">
                                 <img src="./images/icons/linkedin-pink.png" alt="">
@@ -693,7 +700,7 @@
                             <h4 class="text-2xl font-bold pt-8">Safia Chowdhury</h4>
                             <p class="text-base font-medium">Fruits Expert</p>
 
-                            <div class="flex justify-center gap-3 pt-4">
+                            <div class="flex justify-center gap-3 pt-4 hover:cursor-pointer">
                                 <img src="./images/icons/facebook-pink.png" alt="">
                                 <img src="./images/icons/twitter-pink.png" alt="">
                                 <img src="./images/icons/linkedin-pink.png" alt="">
@@ -705,7 +712,7 @@
                             <h4 class="text-2xl font-bold pt-8">Rokib Hossain</h4>
                             <p class="text-base font-medium">Fruits Expert</p>
 
-                            <div class="flex justify-center gap-3 pt-4">
+                            <div class="flex justify-center gap-3 pt-4 hover:cursor-pointer">
                                 <img src="./images/icons/facebook-pink.png" alt="">
                                 <img src="./images/icons/twitter-pink.png" alt="">
                                 <img src="./images/icons/linkedin-pink.png" alt="">
@@ -717,7 +724,7 @@
                             <h4 class="text-2xl font-bold pt-8">Chaity</h4>
                             <p class="text-base font-medium">Fruits Expert</p>
 
-                            <div class="flex justify-center gap-3 pt-4">
+                            <div class="flex justify-center gap-3 pt-4 hover:cursor-pointer">
                                 <img src="./images/icons/facebook-pink.png" alt="">
                                 <img src="./images/icons/twitter-pink.png" alt="">
                                 <img src="./images/icons/linkedin-pink.png" alt="">
@@ -753,7 +760,7 @@
 
 
                             <img class="bg-[#E8E8E8] p-4  rounded-full" src="./images/icons/group 1.svg" alt="">
-                            
+
 
                             <div class="space-y-4 items-center text-center lg:text-left">
                                 <h4 class="text-t text-2xl">Dedicated Team</h4>
@@ -802,7 +809,8 @@
 
                     <!-- Image container -->
                     <div class="md:mx-auto my-auto ">
-                        <img class="mx-auto w-11/12 lg:h-[300px] lg:w-[700px] xl:h-auto xl:w-auto" src="./images/whychoose1.png" alt="">
+                        <img class="mx-auto w-11/12 lg:h-[300px] lg:w-[700px] xl:h-auto xl:w-auto"
+                            src="./images/whychoose1.png" alt="">
                     </div>
                 </div>
 
@@ -872,8 +880,75 @@
             </div>
         </section>
 
-        
     </main>
+
+    <!-- Footer Section -->
+    <footer class="footer footer-center mt-36 px-4 bg-[#121212] text-white">
+
+        <div class="pt-32">
+
+            <div class="btn btn-ghost">
+                <img class="h-10 md:h-full" src="./images/logo.png" alt="">
+                <a class=" normal-case text-4xl">Fruit Burst</a>
+            </div>
+
+            <div class="flex flex-wrap justify-center md:p-3 gap-6 md:gap-8 lg:gap-16 my-14 text-lg font-semibold">
+                <p class="hover:cursor-pointer">Home</p>
+                <p class="hover:cursor-pointer">About Us</p>
+                <p class="hover:cursor-pointer">Shop</p>
+                <p class="hover:cursor-pointer">All Fruits</p>
+                <p class="hover:cursor-pointer">Support</p>
+                <p class="hover:cursor-pointer">My Account</p>
+            </div>
+
+            <div class="grid grid-cols-6 gap-9 px-4 pb-16">
+
+                <button class="mx-auto">
+                    <a target="_blank" href="https://twitter.com/">
+                        <img src="./images/icons/twitter.svg" alt="twitter">
+                    </a>
+                </button>
+
+                <button class="mx-auto">
+                    <a target="_blank" href="https://www.facebook.com/">
+                        <img src="./images/icons/facebook.svg" alt="facebook">
+                    </a>
+                </button>
+
+                <button class="mx-auto">
+                    <a target="_blank" href="https://www.youtube.com/">
+                        <img id="youtube-1" src="./images/icons/youtube-1.svg" alt="youtube">
+                    </a>
+                </button>
+
+                <button class="mx-auto">
+                    <a target="_blank" href="https://linkedin.com/">
+                        <img src="./images/icons/linkedin.svg" alt="linkedin">
+                    </a>
+                </button>
+
+                <button class="mx-auto">
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <img src="./images/icons/instagram.svg" alt="instagram">
+                    </a>
+                </button>
+
+                <button class="mx-auto">
+                    <a target="_blank" href="https://www.apple.com/">
+                        <img src="./images/icons/apple.svg" alt="apple">
+                    </a>
+                </button>
+            </div>
+
+        </div>
+        <div>
+            <div class="grid grid-flow-col gap-4">
+                <a></a>
+                <a></a>
+                <a></a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
